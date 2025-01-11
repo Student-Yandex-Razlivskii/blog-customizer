@@ -14,7 +14,7 @@ const root = createRoot(domNode);
 
 const App = () => {
 	return (
-		<main
+		<div
 			className={clsx(styles.main)}
 			style={
 				{
@@ -27,7 +27,7 @@ const App = () => {
 			}>
 			<ArticleParamsForm />
 			<Article />
-		</main>
+		</div>
 	);
 };
 
